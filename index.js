@@ -20,4 +20,4 @@ const driversByRevenue = function (drivers){
   })
 };
 
-revenue.sort(driversByRevenue);
+
