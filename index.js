@@ -21,7 +21,7 @@ const driversByRevenue = function (drivers){
 };
 
 const driversByName = function (drivers){
-  return logDriverNames(drivers)(function (driverA, driverB){
+  logDriverNames(drivers)(function (driverA, driverB){
     return driverA.localeCompare(driverB);
   })
   };
